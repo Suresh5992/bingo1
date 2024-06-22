@@ -2,7 +2,7 @@ version: '3'
 
 services:
   nextjs-app:
-    container_name: nextjs-container
+    container_name: suresh628/bingo:latest
     build:
       context: .
     ports:
